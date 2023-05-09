@@ -1,0 +1,14 @@
+.topnav {
+    display: block;
+    background-color: var(--color-light);
+    padding: 0.7rem 1.7rem;
+    gap: 2%;
+}
+
+.topnav a {
+    margin: 2rem;
+}
+
+.navbar__socials {
+    float: right;
+}

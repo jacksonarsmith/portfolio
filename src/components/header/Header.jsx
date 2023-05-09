@@ -1,5 +1,6 @@
 import React from 'react';
 import './header.css';
+import CTA from './CTA'; 
 
 const Header = () => {
   return (
@@ -8,7 +9,13 @@ const Header = () => {
           <h5>Hello I'm</h5>
           <h1>Jackson Smith</h1>
           <h5 className="text-light">Software Engineer</h5>
+          <CTA/> 
         </div>
+        <div className="me">
+          <img src="" alt="" />
+        </div>
+
+        <a href="#contact" className='scroll__down'>Scroll Down</a>
     </header>
   )
 };
