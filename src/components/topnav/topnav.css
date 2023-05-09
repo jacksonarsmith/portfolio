@@ -12,3 +12,36 @@
 .navbar__socials {
     float: right;
 }
+
+@media screen and (max-width: 1024px) {
+    .topnav {
+        
+    }
+}
+
+/* =========== Media Queries (Small Devices) =========== */
+
+@media screen and (max-width: 600px) {
+    .topnav {
+        overflow: hidden;
+        background-color: var(--color-light); 
+        position: relative; 
+        display: none;
+    }
+
+    .topnav a {
+        color: black;
+        padding: 1rem 1.5rem;
+        text-decoration: none;
+        font-size: 16px;
+        display: block;
+    }
+
+    .topnav a.icon {
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0; 
+    }
+}
