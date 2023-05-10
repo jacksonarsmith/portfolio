@@ -1,6 +1,8 @@
 .topnav {
+    background: var(--color-bg);
     display: block;
-    background-color: var(--color-light);
+    border-bottom: 2px solid transparent;
+    border-color: var(--color-secondary);
     padding: 0.7rem 1.7rem;
     gap: 2%;
 }

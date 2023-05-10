@@ -5,28 +5,28 @@
 }
 
 .service {
-    background: teal; 
+    background: var(--color-primary); 
     border-radius: 0 0 2rem 2rem;
-    border: 1px solid var(--color-primary);
+    border: 1px solid var(--color-secondary);
     height: fit-content;
     transition: var(--transition);
 }
 
 .service:hover {
-    background: transparent;
-    border-color: #fff;
+    background: var(--color-secondary);
+    border-color: var(--color-secondary);
     cursor: default;
 }
 
 .service__head {
-    background: teal;
+    background: var(--color-primary);
     padding: 2rem;
     border-radius: 0 0 2rem 2rem;
     box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
 }
 
 .service__head h3 {
-    color: var(--color-text);
+    color: var(--color-bg);
     font-size: 1rem;
     text-align: center;
 }
@@ -36,13 +36,14 @@
 }
 
 .service__list li {
+    color: var(--color-bg);
     display: flex;
     gap: 1rem; 
     margin-bottom: 0.8rem;
 }
 
 .service__list-icon {
-    color: var(--color-primary);
+    color: var(--color-bg);
     margin-top: 2px;
 
 }

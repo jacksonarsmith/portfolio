@@ -11,9 +11,10 @@
 }
 
 :root {
-    --color-bg: #fff; 
-    --color-primary: #1D517B; 
-    --color-light: #4682B4; 
+    --color-bg: #303655; 
+    --color-primary: #84A7BA; 
+    --color-secondary: #6F90AF;
+    --color-light: #BFCBCE; 
 
     --transition: all 400ms ease; 
 
@@ -33,7 +34,7 @@ html {
 body {
     font-family: "Poppins", sans-serif;
     background: var(--color-bg);
-    color: var(--color-primary); 
+    color: var(--color-light); 
     line-height: 1.7; 
 }
 
@@ -75,7 +76,7 @@ a {
 }
 
 a:hover {
-    color: #fff; 
+    color: var(--color-secondary); 
 }
 
 .btn {
@@ -85,12 +86,12 @@ a:hover {
     padding: 0.75rem 1.2rem;
     border-radius: 0.4rem; 
     cursor: pointer; 
-    border: 1px solid var (--color-primary); 
+    border: 1px solid var(--color-primary); 
     transition: var(--transition); 
 }
 
 .btn:hover {
-    background: #fff; 
+    background: var(--color-secondary); 
     color: var(--color-bg); 
     border-color: transparent; 
 

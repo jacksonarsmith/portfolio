@@ -6,7 +6,7 @@
 }
 
 .experience__container > div {
-    background: teal; 
+    background: var(--color-primary); 
     padding: 2.4rem 5rem; 
     border-radius: 2rem;
     border: 1px solid transparent; 
@@ -14,15 +14,15 @@
 }
 
 .experience__container > div:hover {
-    background: transparent;
-    border-color: teal; 
+    background: var(--color-secondary);
+    border-color: var(--color-secondary); 
     cursor: default; 
 }
 
 .experience__container > div h3 {
     text-align: center;
     margin-bottom: 2rem;
-    color: var(--color-primary);
+    color: var(--color-bg);
 }
 
 .experience__content {
@@ -32,13 +32,18 @@
 }
 
 .experience__details {
+    color: var(--color-bg);
     display: flex;
     gap: 1rem;  
 }
 
+.experience__details small {
+    color: var(--color-bg);
+}
+
 .experience__details-icon {
     margin-top: 6px; 
-    color: var(--color-primary);
+    color: var(--color-bg);
 
 }
 
